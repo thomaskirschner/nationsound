@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 
 	body {
-		background: #424242;
+
 		font-family: 'Inconsolata', monospace;
 		margin: 0;
 		padding: 0;
@@ -32,7 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		font-family: 'Inconsolata', monospace;
 		font-size: 1em;
 		letter-spacing: 1px;
-		color: #dad8d4;
+		color: #FFFC58;
 		margin: 0;
 		padding: 0;
 	}
@@ -45,7 +45,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	h5,
 	h6 {
 		font-family: 'Inconsolata', monospace;
-		color: #FFFC58C58;
+		color: #FFFC58;
 	}
 
 	@font-face {
@@ -57,7 +57,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		top: 64px;
 		overflow: hidden;
 	}
-
+	.modal-body img{
+		width:40%;
+	}
+	.modal-body h3{
+		color:#424242;
+	}
 	.frame-border {
 		width: 350px;
 		height: 630px;
@@ -116,7 +121,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	/*--status-bar--*/
 
 	.body-back {
-		background: #424242;
+		background-color: #424242;
 		font-family: 'Inconsolata', monospace;
 		margin: 0;
 	}
@@ -256,7 +261,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	.menu-notify {
 		padding: 12px 0;
-		background: #DAD8D4;
+		background: #424242;
 	}
 
 	.panel {
@@ -287,7 +292,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		font-size: 18px;
 		margin: 20px 0 10px;
 		font-weight: 700;
-		background: #00a8e0;
+		background: none;
 		padding: 0.5em;
 		letter-spacing: 2px;
 		text-shadow: rgba(0, 0, 0, 0.44) 2px 2px 3px;
@@ -361,7 +366,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	/*-- /banner--*/
 
 	.banner_info_agile_w3ls {
-		background: url(../images/banner.jpg) no-repeat 0px 0px;
+		background: url(../images/banner.mp4) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -370,7 +375,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		min-height: 400px;
 		text-align: center;
 	}
-
+	banner_info_agile_w3ls video{
+		
+	}
 	.banner_info_agile_w3ls h2 {
 		font-size: 3.5em;
 		color: #FFFC58;
@@ -389,7 +396,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	.banner_info_agile_w3ls img {
 		border-radius: 50%;
-		-webkit-border-radius: 50%;
+		-webkit-border-radius: 0;
 		-moz-border-radius: 50%;
 		-o-border-radius: 50%;
 		-ms-border-radius: 50%;
@@ -399,8 +406,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	.banner_info_agile_w3ls_inner {
 		padding-top: 4em;
-	}
 
+	}
+	.MyVideo{
+		opacity: 0.35;
+	}
 	ul.top-links_w3layouts {
 		margin-top: 1em;
 	}
@@ -431,7 +441,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 
 	ul.top-links_w3layouts li a i.fa:hover {
-		color: #00a8e0;
+		/*color: #00a8e0;*/
 	}
 	/*--// banner --*/
 	/*-- /error --*/
@@ -633,7 +643,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 
 	.exp {
-		background: url(../images/exp.jpg) no-repeat center top;
+		background: url(../images/fest2.jpg) no-repeat center top;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -643,7 +653,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 
 	.edu {
-		background: url(../images/edu.jpg) no-repeat center top;
+		background: url(../images/fest.jpg) no-repeat center top;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -715,7 +725,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		margin-top: 12em;
 	}
 	.history-grid:hover .story-img span,.services-section-grid:hover .service-icon span {
-        color: #00a8e0;
+        color: #FFFC58;
     }
 	/*--/skills--*/
 
@@ -1132,7 +1142,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 
 	.whychoose {
-		background: #424242;
+		background-color: #424242;
 	}
 
 	.abt-right h4 {
@@ -1726,7 +1736,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	/*-- //inner_sec --*/
 
 	.banner_inn_sec {
-		background: url(../images/banner.jpg) no-repeat 0px 0px;
+		background: url(../images/banner.mp4) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1768,7 +1778,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	.services-section {
 		padding: 3em 0;
-		background: #FFFC58;
+		background-color: #424242;
 	}
 
 	.services-section-grids {
@@ -1782,7 +1792,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	.service-icon-heading h4 {
 		font-size: 1.4em;
-		color: #3d403f;
+		color: #FFFC58;
 		font-weight: 600;
 	}
 
@@ -1839,7 +1849,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 
 	.stats_info p {
-		color: #9a0f0c;
+		color: #FFFC58;
 		margin: 2em 0;
 		line-height: 2em;
 		font-size: 1.1em;
@@ -1858,7 +1868,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	.stats_inner_grids {
 		float: right;
 		width: 50%;
-		background: url(../images/banner2.jpg) no-repeat 0px 0px;
+		background: url(../images/lucie.jpg) no-repeat 0px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1870,7 +1880,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	}
 
 	.stats {
-		background: #DAD8D4;
+		background: #424242;
 	}
 
 	.stats_left.counter_grid1 {
@@ -1939,7 +1949,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		.stats_inner_grids {
 			float: right;
 			width: 100%;
-			background: url(../images/banner2.jpg) no-repeat 0px 0px;
+			background: url(../images/lucie.jpg) no-repeat 0px 0px;
 			background-size: cover;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -2024,7 +2034,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		.stats_inner_grids {
 			float: right;
 			width: 100%;
-			background: url(../images/banner2.jpg) no-repeat 0px 0px;
+			background: url(../images/lucie.jpg) no-repeat 0px 0px;
 			background-size: cover;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
